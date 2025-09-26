@@ -1,0 +1,374 @@
+    1  pwd
+    2  ls
+    3  mkdir Lab_2
+    4  cd Lab_2
+    5  pwd
+    6  ls
+    7  mkdir notes
+    8  mkdir practice
+    9  pwd
+   10  ls
+   11  cd notes
+   12  ls
+   13  cd ..
+   14  cd practice
+   15  ls
+   16  cd //
+   17  cd..
+   18  cd ..
+   19  cd Lab_2
+   20  cd ../..
+   21  clear
+   22  pwd
+   23  cd Lab_2
+   24  cd ..
+   25  cd home
+   26  whoami
+   27  pwd
+   28  ls
+   29  cd Lab_2
+   30  pwd
+   31  ls
+   32  cd notes
+   33  ls
+   34  cd ..
+   35  cd practice
+   36  ls
+   37  cd ..
+   38  cd notes
+   39  touch commands.txt
+   40  echo "pwd - prints current directory" > commands.txt
+   41  echo "ls - lists files" >> commands.txt
+   42  echo "cd - changes directory" >> commands.txt
+   43  cat commands.txt
+   44  pwd
+   45  mv commands.txt /home/sheyla-germosen/Lab_2/practice
+   46  cd practice
+   47  cd ..
+   48  cd practice
+   49  ls
+   50  mv commands.txt my_commands.txt
+   51  ls
+   52  cd ..
+   53  cd notes
+   54  ls
+   55  pwd
+   56  ls
+   57  ls -l
+   58  cd ..
+   59  touch system_info.txt
+   60  ls
+   61  whoami > system_info.txt
+   62  uname -a >> system_info.txt
+   63  date >> system_info.txt
+   64  df -h >> system_info.txt
+   65  cat system_info.txt
+   66  pwd
+   67  cd ..
+   68  tar -czvf scg6_IT340_Lab2.tar.gz Lab_2
+   69  ls
+   70  cp /home/sheyla-germosen/.bash_history history.txt
+   71  ls
+   72  cat history.txt
+   73  clear
+   74  cat /etc/passwd
+   75  less /etc/group
+   76  cat /etc/passwd
+   77  cat /etc/group
+   78  cat /etc/hostname
+   79  cat /ect/os-release
+   80  cat /sys/kernel/debug/multigrain_timestamps
+   81  cd sys
+   82  pwd
+   83  ls
+   84  ls -l
+   85  cd etc
+   86  cd ?
+   87  cd etc/
+   88  cd /root
+   89  ls -l
+   90  cd desktop
+   91  cd Desktop
+   92  ls -l
+   93  la
+   94  ls
+   95  clear
+   96  cd /etc
+   97  cat /etc/passwd
+   98  cat /etc/group
+   99  cat /etc/hostname
+  100  cat /etc/os-release
+  101  cd /sys
+  102  cat /sys/kernel/debug/multigrain_timestamps
+  103  ls
+  104  ls -l
+  105  less /sys/kernel/debug/multigrain_timestamps
+  106  cd kernel
+  107  cd debug
+  108  ls -l
+  109  ls -l debug
+  110  chmod u+rwx debug/
+  111  cd ..
+  112  cd ~
+  113  ls -l
+  114  chmod u+rwx
+  115  chmod --help
+  116  clear
+  117  ls -l
+  118  cd /etc
+  119  cat /etc/passwd
+  120  cat /etc/group
+  121  cat /etc/hostname
+  122  cat /etc/os-release
+  123  cd /sys
+  124  sudo cat /sys/kernel/debug/multigrain_timestamps
+  125  cd ~
+  126  pwd
+  127  mkdir ~/Lab_3
+  128  ls
+  129  cp /sys/kernel/debug/multigrain_timestamps ~/Lab_3/
+  130  sudo cp /sys/kernel/debug/multigrain_timestamps ~/Lab_3/
+  131  cd Lab_3
+  132  ls
+  133  cat multigrain_timestamps
+  134  exit
+  135  ls
+  136  cd Lab_3
+  137  ls
+  138  cd ..
+  139  clear
+  140  sudo apt-get install git 
+  141  sudo apt-get update
+  142  sudo apt-get upgrade
+  143  git --version
+  144  git config --global user.name sheyla
+  145  git config --global user.email scg6@njit.edu
+  146  pwd
+  147  ls
+  148  cd Lab_3
+  149  ls
+  150  cat multigrain_timestamps
+  151  cd ..
+  152  cp /etc/passwd ~/Lab_3/
+  153  cp /etc/group ~/Lab_3/
+  154  cp /etc/hostname ~/Lab_3/
+  155  cp /etc/os-release ~/Lab_3/
+  156  cd Lab_3
+  157  ls
+  158  cat group
+  159  cat hostname
+  160  cat passwd
+  161  cat os-release
+  162  git init
+  163  git status
+  164  git add hostname
+  165  git add --all
+  166  git status
+  167  git commit
+  168  git status
+  169  git log
+  170  git checkout -b it340-lab3-v1
+  171  git status
+  172  echo "# Step 5.3 in Lab 3: YOU CAN DO IT!" >> os-release
+  173  git status
+  174  git add os-release
+  175  git status
+  176  git commit
+  177  git status
+  178  git log
+  179  git remote add origin https://github.com/scgermosen/FA25-IT340-remote 
+  180  git push origin it340-lab3-v1
+  181  git checkout master
+  182  git status
+  183  git push master
+  184  git push origin main
+  185  git push -b maiin
+  186  git push origin main
+  187  git status
+  188  git log
+  189  git push origin master
+  190  git status
+  191  git log
+  192  git checkout
+  193  echo "# This is part 7.2: NEW MESSAGE INTO HOSTNAME" >> hostname
+  194  git status
+  195  git add hostname
+  196  git status
+  197  git log
+  198  git commit
+  199  touch CuteFile
+  200  ls
+  201  rm CuteFile
+  202  ls
+  203  touch cutefile.txt
+  204  echo "Hi, have a nice one cute human!" >> cutefile.txt
+  205  ls
+  206  cat cutefile.txt
+  207  git status
+  208  git add cutefile.txt
+  209  git status
+  210  git commit
+  211  git push origin
+  212  git push origin master
+  213  git revert master
+  214  git log
+  215  git log >> git-log-output.txt
+  216  cat git-log-output.txt
+  217  git log >> git-log-output
+  218  ls
+  219  cat git-log-output
+  220  rm git-log-output.txt
+  221  ls
+  222  git status
+  223  git add git-log-output
+  224  git status
+  225  git commit
+  226  git status
+  227  git push origin master
+  228  git log
+  229  git status
+  230  tar -czvf scg6_IT430_Lab3.tar.gz Lab_3
+  231  cd ..
+  232  tar -czvf scg6_IT430_Lab3.tar.gz Lab_3
+  233  ls
+  234  touch repository-info.txt
+  235  echo " my repository link is : https://github.com/scgermosen/FA25-IT340-remote " >> repository-info.txt
+  236  cat repository-info.txt
+  237  exit
+  238  cd Desktop/
+  239  ls
+  240  ls -l
+  241  touch disk_report.sh
+  242  chmod u+rwx, g+rwx, o-rwx disk_report.sh
+  243  chmod --help
+  244  ls -l disk_report.sh
+  245  chmod u+x, g+x disk_report.sh
+  246  chmod 771 disk_report.sh
+  247  ls -l disk_report,sh
+  248  ls - l disk_report.sh
+  249  ls -l disk_report.sh
+  250  echo "#1/bin/bash" >> disk_report.sh
+  251  echo "Disk Report - $(date)" >> ~/disk_usage.log
+  252  cat disk_report.sh
+  253  rm disk_report.sh
+  254  ls
+  255  ls -l
+  256  touch disk_report.sh
+  257  chmod 771 disk_report.sh
+  258  ls -l disk_report.sh
+  259  echo #!bin/bash >> disk_report.sh
+  260  cat disk_report.sh
+  261  echo "Disk Report - $(date)" >> ~/disk_usage.log
+  262  df -h >> ~disk_usage.log
+  263  echo "------------------------" >> ~/disk_usage.log
+  264  cat disk_report.sh
+  265  ./disk_report.sh
+  266  "./disk_report.sh"
+  267  ./disk_report.sh
+  268  cat disk_report.sh
+  269  rm disk_report.sh
+  270  ls
+  271  rm -i ~disk_usage.log
+  272  ls -l
+  273  touch disk_report.sh
+  274  chmod 771 disk_report.sh
+  275  ls -l disk_report.sh
+  276  #!/bin/bash >> disk_report.sh
+  277  echo "Disk Report -$(date)" >> ~/disk_usage.log
+  278  df -h >> ~/disk_usage.log
+  279  echo "------------------------" >> ~/disk_usage.log
+  280  ./disk_report.sh
+  281  "./disk_report.sh"
+  282  nano disk_report.sh
+  283  ./disk_report.sh
+  284  chmod +x ./disk_report.sh
+  285  cat disk_report.sh
+  286  nano newscript.sh
+  287  ./newscript.sh
+  288  ls
+  289  chmod 711 newscript.sh
+  290  ./newscript.sh
+  291  ./disk_report.sh
+  292  ls -l
+  293  ls
+  294  cat disk_report.sh
+  295  cd ~
+  296  cd Desktop/
+  297  ls
+  298  nano disk_report.sh
+  299  ./disk_report.sh
+  300  rm disk_report.sh
+  301  rm newscript.sh
+  302  cd ~
+  303  nano disk_report.sh
+  304  chmod 771 disk_report.sh
+  305  ls -l
+  306  ./disk_report.sh
+  307  cat disk_report.sh
+  308  "./disk_report.sh"
+  309  ./disk_report.sh
+  310  cat disk_usage.log
+  311  nano disk_report.sh
+  312  ./disk_report.sh
+  313  crontab -e
+  314  systemctl status cron
+  315  nano disk_report.sh
+  316  mkdir Lab_4
+  317  cd ~/Lab_4
+  318  git init
+  319  git status
+  320  git clone
+  321  git clone github.com/scgermosen/IT-340-Lab4-Repo.git
+  322  git status
+  323  git clone github.com/scgermosen/IT-340-Lab-4-Repo.git
+  324  git clone [200~https://github.com/scgermosen/IT-340-Lab-4-Repo~.git
+  325  git clone https://github.com/scgermosen/IT-340-Lab-4-Repo.git
+  326  git fetch --all
+  327  git pull
+  328  git add disk_report.sh
+  329  cp disk_report.sh
+  330  cd ~
+  331  cd Lab_4
+  332  cp ~/Desktop/disk_report.sh
+  333  cp disk_report.sh ~/Lab_4/
+  334  cd Desktop
+  335  cd Desktop/
+  336  cd ..
+  337  la
+  338  cp disk_report.sh ~/Lab_4/
+  339  cd Lab_4
+  340  ls
+  341  git add disk_report.sh
+  342  git status
+  343  cd Desktop/
+  344  cd ..
+  345  cp disk_usage.log ~/Lab_4/
+  346  ls
+  347  cd Lab_4
+  348  ls
+  349  git add disk_usage.log
+  350  git status
+  351  git commit
+  352  git status
+  353  git push
+  354  git log
+  355  git fetch
+  356  git fetch --all
+  357  git pull
+  358  git push
+  359  git remote add origin https://github.com/scgermosen/IT-340-Lab-4-Repo
+  360  git push
+  361  git checkout -b lab4
+  362  git branch
+  363  git status
+  364  git push origin lab4
+  365  git status
+  366  git add IT-340-Lab-4-Repo/
+  367  git status
+  368  git log
+  369  git pull
+  370  git commit
+  371  git status
+  372  git push
+  373  git pull
+  374  history >> history.txt

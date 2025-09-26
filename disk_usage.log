@@ -1,0 +1,118 @@
+Disk Report - Fri Sep 26 10:19:47 AM EDT 2025
+Disk Report - Fri Sep 26 10:24:47 AM EDT 2025
+------------------------
+Disk Report Fri Sep 26 10:31:01 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  112K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+--------------------
+Disk Report -Fri Sep 26 10:35:27 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  112K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+------------------------
+Disk Report - Fri Sep 26 10:39:39 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  112K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+---------------------
+Disk Report - Fri Sep 26 10:42:49 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+---------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+Disk Report - Fri Sep 26 10:50:09 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+-------------------
+Disk Report - Fri Sep 26 10:51:04 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+-------------------
+Disk Report - Fri Sep 26 10:51:11 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+-------------------
+Disk Report - Fri Sep 26 10:53:27 AM EDT 2025
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.0M  334M   1% /run
+/dev/sda2        20G  9.9G  8.7G  54% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G   24K  1.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  116K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/sheyla-germosen/CDROM
+/dev/sr1        5.9G  5.9G     0 100% /media/sheyla-germosen/Ubuntu 25.04 amd64
+-------------------
